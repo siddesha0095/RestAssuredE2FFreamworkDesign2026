@@ -16,9 +16,9 @@ public class LoginAPITest3 {
 
     @Test(description = "Verify if Login API is working...")
     public void loginTest() {
-       AuthService authservice=new AuthService();
-       Response response=authservice.login("{\\\"username\\\": \\\"siddesha0095\\\",\\\"password\\\": \\\"Navaneeth22#\\\"}");
-       System.out.println(response.asPrettyString());
+//       AuthService authservice=new AuthService();
+//       Response response=authservice.login("{\\\"username\\\": \\\"siddesha0095\\\",\\\"password\\\": \\\"Navaneeth22#\\\"}");
+//       System.out.println(response.asPrettyString());
     }
 }
 

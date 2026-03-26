@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-26T09:38:52 IST" name="Default suite" finished-at="2026-03-26T09:38:56 IST" duration-ms="3772">
+  <suite started-at="2026-03-26T11:54:17 IST" name="Default suite" finished-at="2026-03-26T11:54:27 IST" duration-ms="9369">
     <groups>
     </groups>
-    <test started-at="2026-03-26T09:38:52 IST" name="Default test" finished-at="2026-03-26T09:38:56 IST" duration-ms="3772">
-      <class name="com.api.tests.LoginAPITestwithRequestModel4">
-        <test-method signature="loginTest()[pri:0, instance:com.api.tests.LoginAPITestwithRequestModel4@7f8633ae]" started-at="2026-03-26T09:38:52 IST" name="loginTest" description="Verify if Login API is working..." finished-at="2026-03-26T09:38:56 IST" duration-ms="3553" status="PASS">
+    <test started-at="2026-03-26T11:54:17 IST" name="Default test" finished-at="2026-03-26T11:54:27 IST" duration-ms="9369">
+      <class name="com.api.tests.ForgotPassowrdTest">
+        <test-method signature="forgotPassowrdTest()[pri:0, instance:com.api.tests.ForgotPassowrdTest@327c7bea]" started-at="2026-03-26T11:54:17 IST" name="forgotPassowrdTest" description="Verify if forgot password  API is working..." finished-at="2026-03-26T11:54:27 IST" duration-ms="9125" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-      </class> <!-- com.api.tests.LoginAPITestwithRequestModel4 -->
+        </test-method> <!-- forgotPassowrdTest -->
+      </class> <!-- com.api.tests.ForgotPassowrdTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
