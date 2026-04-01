@@ -15,11 +15,11 @@ public class ForgotPassowrdTest {
     public void forgotPassowrdTest() {
         
         AuthService authService = new AuthService();
-       Response response= authService.forgotPassword("siddesha0095@gmail.com");
+       Response response= authService.forgotPassword("siddesha094@gmail.com");
       
         
         System.out.println(response.asPrettyString());
-        //Assert.assertEquals(response.asPrettyString(), "User registered successfully!");
+        //Assert.assertEquals(response.asPrettyString(), "If an account exists with the provided email, you will receive password reset instructions.");
      
        
 

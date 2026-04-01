@@ -19,6 +19,11 @@ public class BaseService { // wrapper for Rest Assured!!
     public BaseService() {
         requestSpecification = given().baseUri(BASE_URL);
     }
+    // to set authoization
+    protected void setAuthToken(String token) {
+        requestSpecification.header("Authorization", "Bearer " + token);
+    }
+
 
     protected Response postRequest(Object  payload, String endpoint) {
         return requestSpecification
@@ -26,4 +31,12 @@ public class BaseService { // wrapper for Rest Assured!!
                 .body(payload)
                 .post(endpoint);
     }
+    
+    
+    //get
+    
+    protected Response getRequest(String endpoint) {
+        return requestSpecification.get(endpoint);
+    }
+
 }
