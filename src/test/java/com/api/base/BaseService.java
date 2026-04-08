@@ -2,7 +2,9 @@ package com.api.base;
 
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
+import com.api.filters.LoggingFilter;
 
 import static io.restassured.RestAssured.given;
 
@@ -15,6 +17,12 @@ public class BaseService { // wrapper for Rest Assured!!
 
     private static final String BASE_URL = "http://64.227.160.186:8080";
     private RequestSpecification requestSpecification;
+    
+//filter to get the logs of request and response //import com.api.filters.LoggingFilter;
+    // static block executed once
+    static {
+        RestAssured.filters(new LoggingFilter());
+    }
 
     public BaseService() {
         requestSpecification = given().baseUri(BASE_URL);

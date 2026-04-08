@@ -1,0 +1,83 @@
+11:50:39.227 [main] INFO  com.api.listeners.TestListener - Test Suite started!!!!
+11:50:39.373 [main] INFO  com.api.listeners.TestListener - Started!!!!loginTest
+11:50:39.373 [main] INFO  com.api.listeners.TestListener - Description!!Verify if Login API is working...
+11:50:46.539 [main] INFO  com.api.listeners.TestListener - Passed!!!!loginTest
+11:50:46.640 [main] INFO  com.api.listeners.TestListener - Test Suite completed!!!!
+12:27:45.149 [main] INFO  com.api.listeners.TestListener - Test Suite started!!!!
+12:27:45.251 [main] INFO  com.api.listeners.TestListener - Started!!!!loginTest
+12:27:45.251 [main] INFO  com.api.listeners.TestListener - Description!!Verify if Login API is working...
+12:27:48.016 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+12:27:48.018 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+12:27:48.019 [main] INFO  com.api.filters.LoggingFilter - Request Payload:{"username":"siddesha0095","password":"Navaneeth22#"}
+12:27:49.064 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+12:27:49.065 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 06 Apr 2026 06:57:48 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+12:27:49.201 [main] INFO  com.api.filters.LoggingFilter - Request Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaWRkZXNoYTAwOTUiLCJpYXQiOjE3NzU0NTg2NjgsImV4cCI6MTc3NTQ2MjI2OH0.0CiJodQYn1GBp2eA1oZbLR7OljbkQe_v_2S2SGEIJRw",
+    "type": "Bearer",
+    "id": 4807,
+    "username": "siddesha0095",
+    "email": "siddesha0095@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+12:27:49.522 [main] INFO  com.api.listeners.TestListener - Passed!!!!loginTest
+12:27:49.624 [main] INFO  com.api.listeners.TestListener - Test Suite completed!!!!
+11:55:13.418 [main] INFO  com.api.listeners.TestListener - Test Suite started!!!!
+11:55:13.521 [main] INFO  com.api.listeners.TestListener - Started!!!!loginTest
+11:55:13.527 [main] INFO  com.api.listeners.TestListener - Description!!Verify if Login API is working...
+11:55:16.428 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+11:55:16.430 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+11:55:16.430 [main] INFO  com.api.filters.LoggingFilter - Request Payload:{"username":"siddesha0095","password":"Navaneeth22#"}
+11:55:17.343 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+11:55:17.345 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Wed, 08 Apr 2026 06:25:16 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+11:55:17.438 [main] INFO  com.api.filters.LoggingFilter - Request Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzaWRkZXNoYTAwOTUiLCJpYXQiOjE3NzU2Mjk1MTYsImV4cCI6MTc3NTYzMzExNn0.tbexVNYlMrhx1wwXrcf2B1Sq3amyOCysanlpDVEftjc",
+    "type": "Bearer",
+    "id": 4807,
+    "username": "siddesha0095",
+    "email": "siddesha0095@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+11:55:17.724 [main] INFO  com.api.listeners.TestListener - Passed!!!!loginTest
+11:55:17.788 [main] INFO  com.api.listeners.TestListener - Test Suite completed!!!!
